@@ -12,7 +12,7 @@ There are three folders in the main folder. Screenshots, ConfigTable, and Commun
 
 The two latter folders, ConfigTable and CommunicDisease, are each separate Angualr projects. 
 They can each be run by first running 'npm install' in the terminal to install the 
-necessary node_modules folder (I had to remove this large folder in order to send the code over successfully), then by running npm start in the terminal. Once compiled, the app can be visited at the localhost link provided by the terminal message. 
+necessary node_modules folder (I had to remove this large folder in order to commit the code successfully), then by running npm start in the terminal. Once compiled, the app can be visited at the localhost link provided by the terminal message. 
 
 ## ConfigTable
 
