@@ -1,0 +1,86 @@
+[
+  {
+    "ID": "1",
+    "Key": "Key1",
+    "Scope": "Scope A",
+    "Value": "200",
+    "Notes": "Example Note"
+  },
+  {
+    "ID": "2",
+    "Key": "Key2",
+    "Scope": "Scope B",
+    "Value": "730",
+    "Notes": ""
+  },
+  {
+    "ID": "3",
+    "Key": "Key3",
+    "Scope": "Scope C",
+    "Value": "FALSE",
+    "Notes": ""
+  },
+  {
+    "ID": "4",
+    "Key": "Key4",
+    "Scope": "Scope D",
+    "Value": "5",
+    "Notes": ""
+  },
+  {
+    "ID": "5",
+    "Key": "Key5",
+    "Scope": "Scope E",
+    "Value": "20",
+    "Notes": ""
+  },
+  {
+    "ID": "6",
+    "Key": "Key6",
+    "Scope": "Scope A",
+    "Value": "5000",
+    "Notes": ""
+  },
+  {
+    "ID": "7",
+    "Key": "Key7",
+    "Scope": "Scope A",
+    "Value": "5",
+    "Notes": ""
+  },
+  {
+    "ID": "8",
+    "Key": "Key8",
+    "Scope": "Scope B",
+    "Value": "",
+    "Notes": ""
+  },
+  {
+    "ID": "9",
+    "Key": "Key9",
+    "Scope": "Scope D",
+    "Value": "15",
+    "Notes": ""
+  },
+  {
+    "ID": "10",
+    "Key": "Key10",
+    "Scope": "Scope A",
+    "Value": "200",
+    "Notes": ""
+  },
+  {
+    "ID": "11",
+    "Key": "Key11",
+    "Scope": "Scope F",
+    "Value": "20",
+    "Notes": ""
+  },
+  {
+    "ID": "12",
+    "Key": "Key12",
+    "Scope": "Scope D",
+    "Value": "30",
+    "Notes": ""
+  }
+]

@@ -1,0 +1,70 @@
+<div>
+  <h1>Communicable Disease Communication</h1>
+    <p>Did the decedent have one or more communicable diseases?<p>
+    <input type = "checkbox" id  ="none" name ="none" value ="None" (click) = "noneBoxChecked()" > 
+    <label for = "none">None</label><br>
+    <form id = "communicChecks" style = "display:block">
+      <div style = "width:30%;float: left; height: 300px">
+        <input type = "checkbox" id ="CommunicHIV" name="CommunicHIV" value = "CommunicHIV">
+        <label for = "CommunicHIV">Human Immunodeficiency Virus Infections including AIDS</label><br>
+
+        <input type = "checkbox" id ="CommunicAnthrax" name="CommunicAnthrax" value = "CommunicAnthrax">
+        <label for = "CommunicAnthrax">Anthrax</label><br>
+
+        <input type = "checkbox" id ="CommunicCOVID" name="CommunicCOVID" value = "CommunicCOVID">
+        <label for = "CommunicCOVID">COVID-19</label><br>
+
+        <input type = "checkbox" id ="CommunicCreutzfeldt" name="CommunicCreutzfeldt" value = "CommunicCreutzfeldt">
+        <label for = "CommunicCreutzfeldt">Creutzfeldt-Jakob Disease</label><br>
+
+        <input type = "checkbox" id ="CommunicHepB" name="CommunicHepB" value = "CommunicHepB">
+        <label for = "CommunicHepB">Viral Hepatitis B</label><br>
+
+        <input type = "checkbox" id ="CommunicMalaria" name="CommunicMalaria" value = "CommunicMalaria">
+        <label for = "CommunicMalaria">Malaria (Untreated)</label><br>
+
+        <input type = "checkbox" id ="CommunicMeningococcal" name="CommunicMeningococcal" value = "CommunicMeningococcal">
+        <label for = "CommunicMeningococcal">Meningococcal Disease (Untreated)</label><br>
+
+        <input type = "checkbox" id ="CommunicOther" name="CommunicOther" value = "CommunicOther" (click) = "otherBoxChecked()">
+        <label for = "CommunicOther">Other (please specify)</label><br>
+        <input type = "text" style = "text-align:left;display:none" id = "CommunicOtherBox" name = "CommunicOtherBox">
+
+        <input type = "checkbox" id ="CommunicPlague" name="CommunicPlague" value = "CommunicPlague">
+        <label for = "CommunicPlague">Plague (Untreated)</label><br><br>
+      </div>
+      <div style = "margin-left: 20%; height : 350px">
+        <input type = "checkbox" id ="CommunicQFever" name="CommunicQFever" value = "CommunicQFever">
+        <label for = "CommunicQFever">Q Fever (Untreated)</label><br>
+
+        <input type = "checkbox" id ="CommunicRabies" name="CommunicRabies" value = "CommunicRabies">
+        <label for = "CommunicRabies">Rabies</label><br>
+
+        <input type = "checkbox" id ="CommunicSmallpox" name="CommunicSmallpox" value = "CommunicSmallpox">
+        <label for = "CommunicSmallpox">Smallpox</label><br>
+
+        <input type = "checkbox" id ="CommunicSyphilis" name="CommunicSyphilis" value = "CommunicSyphilis">
+        <label for = "CommunicSyphilis">Syphilis-Primary and Secondary (Untreated)</label><br>
+
+        <input type = "checkbox" id ="CommunicToxoplasmosis" name="CommunicToxoplasmosis" value = "CommunicToxoplasmosis">
+        <label for = "CommunicToxoplasmosis">Toxoplasmosis Disseminated (Untreated)</label><br>
+
+        <input type = "checkbox" id ="CommunicTuberculosis" name="CommunicTuberculosis" value = "CommunicTuberculosis">
+        <label for = "CommunicTuberculosis">Tuberculosis (Untreated)</label><br>
+
+        <input type = "checkbox" id ="CommunicTularemia" name="CommunicTularemia" value = "CommunicTularemia">
+        <label for = "CommunicTularemia">Tularemia</label><br>
+
+        <input type = "checkbox" id ="CommunicTyphoidFever" name="CommunicTyphoidFever" value = "CommunicTyphoidFever">
+        <label for = "CommunicTyphoidFever">Typhoid Fever (Untreated)</label><br>
+
+        <input type = "checkbox" id ="CommunicHemorrhagic" name="CommunicHemorrhagic" value = "CommunicHemorrhagic" (click) = "viralHemorrChecked()">
+        <label for = "CommunicHemorrhagic">Viral Hemorrhagic Fevers<span id = "warning" style="color:red;display:none">   Contact State Health Department Immediately</span></label><br>
+
+        <input type = "checkbox" id ="CommunicYellowFever" name="CommunicYellowFever" value = "CommunicYellowFever">
+        <label for = "CommunicYellowFever">Yellow Fever (First Five Days of Infection)</label>
+      </div>
+      <button type = "button" >Generate Communicable Disease Alert</button><p></p>
+    </form>
+  
+<div>

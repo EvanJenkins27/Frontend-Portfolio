@@ -1,0 +1,22 @@
+<div class="content block">
+    <h1 class="text-muted" style="position:relative; left:30px; top:10px; font-size:1.25rem">Edit Configuration Fields</h1>  
+      <p style="position:relative; left:30px;"><br>Make Needed Changes to Field. Click 'Add' to save changes, 'Delete' to delete field, 'Cancel' to cancel changes.<p><br />
+    <div>
+      <form style ="position:relative; left:30px; font-size:1.25rem">
+        <label for="Scope">Scope</label><br/>
+        <input type="text" id="Scope" name="Scope" value = {{currObj.Scope}}>
+        <br/>
+        <br/>
+        <label for="Key">Key</label><br/>
+        <input type="text" id = "Key" name="Key" value = {{currObj.Key}}>
+        <br/><br/>
+        <label for="Value">Value</label><br/>
+        <input type="text" id = "Value" name="Value" value = {{currObj.Value}}>
+        <br/><br/>
+        <button type = "button" (click)="onSave()">Save</button>
+        <button type = "button" (click)="onCancel()">Cancel</button>
+        <button type= "button" (click)="onDelete()">Delete</button>
+        </form>
+        <br>
+    </div>
+</div>
